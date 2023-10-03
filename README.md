@@ -1,4 +1,7 @@
 # todo-list-olcha
+## Alisher Chinberdiyev
+## Telegram: https://t.me/alisher2552
+## Phone: 97-777-31-91
 
 ## Project setup
 ```
