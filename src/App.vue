@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <todo-list />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { Options, Vue } from 'vue-class-component';
+import TodoList from './TodoList.vue';
 
-export default {
-  name: 'App',
+// This Application belongs to Chinberdiyev Alisher, and is done for Olcha.uz testing task
+
+@Options({
   components: {
-    HelloWorld
-  }
-}
+    TodoList
+  },
+})
+export default class App extends Vue { }
 </script>
 
 <style>
@@ -21,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
